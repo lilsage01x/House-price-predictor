@@ -88,24 +88,8 @@ The project includes the following evaluation charts:
 
 These visualizations help assess model performance beyond the numerical metrics alone.
 
-## 8. Project Structure
 
-A suggested repository structure is:
-
-```text
-house-price-prediction/
-├── README.md
-├── New_housing_data(1).csv
-├── house_price_prediction.ipynb
-└── house_price_charts/
-    ├── actual_vs_predicted.png
-    ├── residual_error_plot.png
-    └── model_evaluation_summary.png
-```
-
-The notebook filename and chart directory should match the actual names used in the repository. If the dataset cannot be shared publicly, include instructions for obtaining it rather than committing it.
-
-## 9. How to Review or Run the Project
+## 8. How to Review or Run the Project
 
 ### Option A: Review on GitHub
 
@@ -138,7 +122,7 @@ If running locally, install the required libraries with:
 pip install pandas numpy scikit-learn matplotlib jupyter
 ```
 
-## 10. Limitations and Future Improvements
+## 9. Limitations and Future Improvements
 
 ### Limitations
 
@@ -157,7 +141,7 @@ pip install pandas numpy scikit-learn matplotlib jupyter
 - Tune Random Forest hyperparameters and experiment with other models, such as Gradient Boosting.
 - Test the final model on additional, representative property data.
 
-## 11. Conclusion
+## 10. Conclusion
 
 This project demonstrates how data preprocessing, regression models, evaluation metrics, and visualizations can be used to build a house-price prediction system.
 
